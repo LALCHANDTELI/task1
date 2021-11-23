@@ -10,11 +10,14 @@ const index = () => {
         <a class="navbar-brand" href="#">
             <h5>NFTBOOK.IO</h5>
         </a>
+        
         <ul class="navbar-nav">
           <li class="nav-item">{search()}</li>
           {navs()}
         </ul>
       </nav>
+
+
       {banner()}
     </div>
   );

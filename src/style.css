@@ -106,3 +106,8 @@ border-radius: 50px;
     border-radius: 60px;
 }
 
+tbody tr:hover.user{
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 4px 8px;
+}

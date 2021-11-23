@@ -27,8 +27,18 @@ const index = () => {
 
 
 
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link" ><i class="fas fa-arrow-circle-left"></i></a></li>
+    <li class="page-item"><a class="page-link" >1</a></li>
+    <li class="page-item"><a class="page-link" >2</a></li>
+    <li class="page-item"><a class="page-link" >3</a></li>
+    <li class="page-item"><a class="page-link" ><i class="fas fa-arrow-circle-right"></i></a></li>
+  </ul>
 
-         
+
+
+
+
         </div>
     )
 }
