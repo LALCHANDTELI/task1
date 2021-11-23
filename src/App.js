@@ -8,9 +8,9 @@ const App = () => {
       <div className="row">
         <div className="col-sm-12">{header()}</div>
 
-        <div className="col-sm-3">{filter()}</div>
+        <div className="col-lg-3">{filter()}</div>
 
-        <div className="col-sm-9">{container()}</div>
+        <div className="col-lg-9">{container()}</div>
       </div>
     </div>
   );
