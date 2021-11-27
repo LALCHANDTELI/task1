@@ -12,6 +12,7 @@ const Users = () => {
             <i className="fab fa-youtube mr-3"></i>
             <img
               className="m-1"
+              alt="user"
               src="http://www.colegiodepadua.com.br/img/user.png"
             />
             John
@@ -27,7 +28,7 @@ const Users = () => {
           </td>
 
           <td>
-          {data%2!=0?<i className="fas fa-arrow-up mr-2"> +525658.5</i>:<i className="fas fa-arrow-down mr-2"> -525658.5</i>}
+          {data%2!==0?<i className="fas fa-arrow-up mr-2"> +525658.5</i>:<i className="fas fa-arrow-down mr-2"> -525658.5</i>}
           </td>
 
           <td >5k</td>

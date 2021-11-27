@@ -8,8 +8,8 @@ const index = () => {
     <div>
 
       <nav className="navbar navbar-expand-lg text-dark  navbar-transparent container fixed-top">
-  <a className="navbar-brand" href="#"> <h5>NFTBOOK.IO</h5></a>
-  <button className="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+  <a className="navbar-brand" href="/#"> <h5>NFTBOOK.IO</h5></a>
+  <button title="home" className="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
   <i className="fas fa-bars"></i>
   </button>
   <div className="collapse navbar-collapse" id="collapsibleNavbar">
