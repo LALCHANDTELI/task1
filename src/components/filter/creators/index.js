@@ -4,27 +4,27 @@ const creators=()=>{
 
 <h6 className="ml-4 pl-2">Creators</h6>
 
-<div class="form-check">
-  <label class="form-check-label">
-  <i class="fas ml-3 mr-3 fa-table"></i>
+<div className="form-check">
+  <label className="form-check-label">
+  <i className="fas ml-3 mr-3 fa-table"></i>
   All
-    <input type="radio" class="form-check-input ml-5" name="creators"/>
+    <input type="radio" className="form-check-input ml-5" name="creators"/>
   </label>
 </div>
 
-<div class="form-check">
-  <label class="form-check-label">
-  <i class="fab fa-youtube ml-3 mr-3"></i>
+<div className="form-check">
+  <label className="form-check-label">
+  <i className="fab fa-youtube ml-3 mr-3"></i>
   Youtube
-    <input type="radio" class="form-check-input ml-5" name="creators"/>
+    <input type="radio" className="form-check-input ml-5" name="creators"/>
   </label>
 </div>
 
-<div class="form-check">
-  <label class="form-check-label">
-  <i class="fab fa-tiktok ml-3 mr-3"></i>
+<div className="form-check">
+  <label className="form-check-label">
+  <i className="fab fa-tiktok ml-3 mr-3"></i>
   Tiktok
-    <input type="radio" class="form-check-input ml-5" name="creators"/>
+    <input type="radio" className="form-check-input ml-5" name="creators"/>
   </label>
 </div>
 

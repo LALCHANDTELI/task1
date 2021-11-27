@@ -7,14 +7,14 @@ const index = () => {
   return (
     <div>
 
-      <nav class="navbar navbar-expand-lg text-dark  navbar-transparent container fixed-top">
-  <a class="navbar-brand" href="#"> <h5>NFTBOOK.IO</h5></a>
-  <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-  <i class="fas fa-bars"></i>
+      <nav className="navbar navbar-expand-lg text-dark  navbar-transparent container fixed-top">
+  <a className="navbar-brand" href="#"> <h5>NFTBOOK.IO</h5></a>
+  <button className="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+  <i className="fas fa-bars"></i>
   </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-    <li class="nav-item">{search()}</li>
+  <div className="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul className="navbar-nav">
+    <li className="nav-item">{search()}</li>
        {navs()}
     </ul>
   </div>  

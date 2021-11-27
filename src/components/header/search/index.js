@@ -1,9 +1,9 @@
 const index=()=> {
     return (
-        <form class="form-inline">
+        <form className="form-inline">
             <div className="search_box">
-            <i class="fas fa-search"></i>
-            <input class="form-control search_field mr-sm-2" type="text" placeholder="search here"/>
+            <i className="fas fa-search"></i>
+            <input className="form-control search_field mr-sm-2" type="text" placeholder="search here"/>
                 </div>
     </form>
     )
